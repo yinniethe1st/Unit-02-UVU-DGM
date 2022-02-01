@@ -1,0 +1,81 @@
+/* body, h1,h2,h3,h4,h5,h6,ul, li {
+    margin: 0;
+} */
+
+header {
+    max-width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url("../Images/Header.jpeg");
+}
+
+header h1, header h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1, main h2 {
+    color:rgb(122, 133, 233);
+    margin-left: 1em;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#myWindow {
+    
+    list-style-type: square;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 4em;
+    background-color: rgb(241, 194, 245);
+    border: 1px solid rgb(153, 37, 114);
+    color: rgb(4, 14, 70);
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#myDocument {
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+}
+ul {
+    list-style-type: square;
+    margin: 2em;
+    padding: 2em;
+    padding-left: 4em;
+    background-color: rgb(241, 194, 245);
+    border: 1px solid rgb(153, 37, 114);
+}
+li {
+    color: rgb(4, 14, 70);
+    font-size: 16px;
+    font-family: monospace;
+
+}
+#pageName {
+    color:purple;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 70px;
+    background-color: purple;
+  }
+
+.footer-box {
+    text-align: center;
+    padding: 1em;
+    color: lightcyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
